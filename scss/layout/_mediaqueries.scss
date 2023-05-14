@@ -1,0 +1,52 @@
+/* Body responsive */
+@media screen and (max-width: 1680px) {
+  body {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  body {
+    padding: 0 50px;
+  }
+}
+/* NavBar responsive */
+@media screen and (min-width: 500px) {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+/* PRODUCTO RESPONSIVE */
+@media screen and (max-width: 1210px) {
+  .producto {
+    width: 42%;
+    padding: 0;
+    gap: 0;
+    img {
+      padding: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .producto {
+    width: 100%;
+  }
+}
+@media screen and (width: 683px) {
+  .nav-list-footer li {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 683px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+}

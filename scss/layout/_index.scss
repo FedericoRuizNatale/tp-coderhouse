@@ -1,0 +1,63 @@
+/* Productos MAIN INDEX */
+.img-mali {
+  height: 600px;
+}
+.img-renova {
+  height: 600px;
+}
+.productos {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100%;
+  gap: 50px;
+  margin-top: 30px;
+}
+.producto {
+  width: 30%;
+  background-color: rgba(59, 62, 88, 0.6);
+  border: 2px solid black;
+  img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 8px;
+  }
+}
+
+.producto_body {
+  text-align: center;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  color: aliceblue;
+  font-family: $mainfont;
+  a {
+    color: $blanco;
+    border: solid 6px $mainColor;
+    background-color: $mainColor;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: 0.8s;
+    font-family: $mainfont;
+    &:hover {
+      color: $hoverColor;
+    }
+  }
+}
+
+.ver-mas {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
+  a {
+    text-decoration: none;
+    color: $blanco;
+    font-size: 25px;
+    transition: 1s;
+    &:hover {
+      color: $hoverColor;
+    }
+  }
+}

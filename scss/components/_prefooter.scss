@@ -1,0 +1,32 @@
+/* REDES */
+.redes img{
+    margin-left: 70px;
+}
+/* MEDIOS DE PAGO */
+
+.pre-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.medios-pago h3{
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+}
+.img-pago{
+    width: 60px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+/* BLOQUES */
+.bloque{
+    display: block;
+    text-align: center;
+}
+
+.bloque-titulo, p{
+    color: aliceblue;
+}
